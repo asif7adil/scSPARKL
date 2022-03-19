@@ -19,8 +19,8 @@ Other Important prerequisites include:
 # Installation
 To install the Apache Spark on Windows use any of the following links:
 <br>
-[Spark Standalone on Windows] (https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e)
-[Apache Spark on Windows] (https://dev.to/awwsmm/installing-and-running-hadoop-and-spark-on-windows-33kc)
+[Spark Standalone on Windows](https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e)
+<br>[Apache Spark on Windows](https://dev.to/awwsmm/installing-and-running-hadoop-and-spark-on-windows-33kc)
 
 
 
