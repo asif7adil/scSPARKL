@@ -10,10 +10,10 @@ scSPARKL is a simple framework for conducting variety of analysis on scRNA-seq d
 Current implementation has been tested on Microsoft Windows Operating System. 
 Other Important prerequisites include:
 <br>
-[Java (latest)] (https://www.java.com/download/ie_manual.jsp)
-<br>[Apache Spark 3.0 or latest] (https://archive.apache.org/dist/spark/)
-<br>[Python 3.9 or latest] (https://www.python.org/downloads/)
-<br>[Jupyer Notebook (Optional)] (https://jupyter.org/install)
+[Java (latest)](https://www.java.com/download/ie_manual.jsp)
+<br>[Apache Spark 3.0 or latest](https://archive.apache.org/dist/spark/)
+<br>[Python 3.9 or latest](https://www.python.org/downloads/)
+<br>[Jupyer Notebook (Optional)](https://jupyter.org/install)
 
 
 # Installation
