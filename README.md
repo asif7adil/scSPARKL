@@ -16,7 +16,7 @@ Other Important prerequisites include:
 <br>[Jupyer Notebook (Optional)](https://jupyter.org/install)
 
 
-## Installation Standalone
+## Installation
 To install the Apache Spark on Windows use any of the following links:
 <br>
 [Spark Standalone on Windows](https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e)
