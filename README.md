@@ -31,4 +31,20 @@ Apache spark is distributed in-memory analytics engine. It is highly recommended
 
 ## Implementation
 Download the source code and run either the Jupyter Notebook or the scSPARKL script file.
+### Data Melting
+Input data is first cleaned and melted to tall format. 
+
+### Generate Cell, Gene Quality Summaries and filtering the unwanted cells and genes.
+This is followed by generating the variety of quality summaries for genes and cells, output of which is saved in an analyses folder automatically generated. 
+The quality summaries are then passed as arguments to the `data_filter()` to filter out the unwanted genes and cells. Defualt paremeters can be changed by directly manipulating the filter package.
+Additionally new columns can be added for other operations for filtering.
+
+### Normalization
+Normalization is currently based on two types:
+- Global or Simple normalization; which is similar to CPM normalization.
+- Quantile Normalization
+Normalization takes tall formated data and returns one wide formatted and a tall formated normalized data.
+
+### Selecting Highly Variable Genes
+
 
