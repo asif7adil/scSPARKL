@@ -46,5 +46,22 @@ Normalization is currently based on two types:
 Normalization takes tall formated data and returns one wide formatted and a tall formated normalized data.
 
 ### Selecting Highly Variable Genes
+We have two methods for selecting HVG:
+- Median Absolute Deviation (MAD). Default Threshold `k` > 3.
+- Coefficient of Variance Squared. Returning Top `n` genes.
+
+### Dimension Reduction using PCA
+The dimension reduction is performed using PCA.
+The PCA implementation is exclusively spark based.
+
+### Dimension Reduction using UMAP and tSNE
+For now the implementation supports simple Python based UMAP and tSNE.
+A parallel version will be released in the later versions of the implementations.
+
+### Kmeans Clustering
+The final stage of the implementation is the KMeans clustering using `spark.mlib.Kmeans`.
+
+### Differential Gene Expression Analysis
+The DGE analysis returns the top 10 genes in the predicted clusters.
 
 
