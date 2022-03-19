@@ -1,12 +1,12 @@
 # scSPARKL
-## An Apache Spark based computational work for the downstream analysis of scRNA-seq data.
+### An Apache Spark based computational work for the downstream analysis of scRNA-seq data.
 
 
-# Description
+## Description
 scSPARKL is a simple framework for conducting variety of analysis on scRNA-seq data. It works on the Apache Spark environment which can either be standalon or in distributed mode (depending up on the requirements). 
 
 
-# Prerequisites
+## Prerequisites
 Current implementation has been tested on Microsoft Windows Operating System. 
 Other Important prerequisites include:
 <br>
@@ -16,7 +16,7 @@ Other Important prerequisites include:
 <br>[Jupyer Notebook (Optional)](https://jupyter.org/install)
 
 
-# Installation
+## Installation
 To install the Apache Spark on Windows use any of the following links:
 <br>
 [Spark Standalone on Windows](https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e)
@@ -24,5 +24,5 @@ To install the Apache Spark on Windows use any of the following links:
 
 
 
-# Implementation
+## Implementation
 Download the source code and run either the Jupyter Notebook or the scSPARKL script file.
