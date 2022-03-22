@@ -54,14 +54,6 @@ We have two methods for selecting HVG:
 The dimension reduction is performed using PCA.
 The PCA implementation is exclusively spark based.
 
-### Dimension Reduction using UMAP and tSNE
-For now the implementation supports simple Python based UMAP and tSNE.
-A parallel version will be released in the later versions of the implementations.
-
-### Kmeans Clustering
-The final stage of the implementation is the KMeans clustering using `spark.mlib.Kmeans`.
-
-### Differential Gene Expression Analysis
-The DGE analysis returns the top 10 genes in the predicted clusters.
+### Read paper for further details
 
 
