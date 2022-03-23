@@ -47,8 +47,8 @@ Normalization is currently based on two types:
 - Quantile Normalization
 Normalization takes tall formated data and returns one wide formatted and a tall formated normalized data.
 
-### Selecting Highly Variable Genes
-We have two methods for selecting HVG:
+### Gene Selection
+We have two methods for selecting HVG/gene selection:
 - Median Absolute Deviation (MAD). Default Threshold `k` > 3.
 - Coefficient of Variance Squared. Returning Top `n` genes.
 
