@@ -3,7 +3,7 @@
 
 
 ## Description
-scSPARKL is a simple framework for conducting variety of analysis on scRNA-seq data. It works on the Apache Spark environment which can either be standalon or in distributed mode (depending up on the requirements). 
+scSPARKL is a simple framework for conducting variety of analysis on scRNA-seq data. It works on the Apache Spark environment which can either be standalone or in distributed mode (depending up on dataload). 
 
 
 ## Prerequisites
@@ -31,6 +31,8 @@ Apache spark is distributed in-memory analytics engine. It is highly recommended
 
 ## Implementation
 Download the source code and run either the Jupyter Notebook or the scSPARKL script file.
+Following are the main tasks performed by the pipeline:
+
 ### Data Melting
 Input data is first cleaned and melted to tall format. 
 
