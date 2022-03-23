@@ -1,5 +1,5 @@
 # scSPARKL
-### An Apache Spark based computational work for the downstream analysis of scRNA-seq data.
+### An Apache Spark based computational framework for the downstream analysis of scRNA-seq data.
 
 
 ## Description
