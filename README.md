@@ -7,7 +7,7 @@ scSPARKL is a simple framework for conducting variety of analysis on scRNA-seq d
 
 
 ## Prerequisites
-Current implementation has been tested on Microsoft Windows Operating System. 
+Current implementation has been tested on Microsoft Windows 11 Operating System. 
 Other Important prerequisites include:
 <br>
 [Java (latest)](https://www.java.com/download/ie_manual.jsp)
