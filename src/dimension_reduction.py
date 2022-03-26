@@ -101,7 +101,7 @@ def umap_apply(df_norm, n_components=2, n_neighbors=15, min_dist=0.5, metric='eu
 
     return df_umap_spark
 
-def tsne_apply(df_norm, n_components=2, n_neighbors=30, metric='euclidean'):
+def tsne_apply(df_norm, n_components=2, n_iter=2000, perplexity=30, learning_rate=1000, metric='euclidean'):
     '''
     Takes wide-format genome dataframe (direct or normalized) and returns t-sne components.
     Number of components set via n_components.
@@ -114,11 +114,13 @@ def tsne_apply(df_norm, n_components=2, n_neighbors=30, metric='euclidean'):
     '''
     reducer = TSNE(
         n_components=n_components,
-        init='pca',
+        init='random',
         random_state=0,
+        n_iter=n_iter,
+        learning_rate=learning_rate,
         metric=metric,
-        perplexity=float(n_neighbors),
-        method='exact'
+        perplexity=float(perplexity),
+        method='barnes_hut'
     )
     df = df_norm.toPandas()
     embedding = reducer.fit_transform(df.drop('cell',axis=1).values)
