@@ -117,7 +117,7 @@ def tsne_apply(df_norm, n_components=2, n_iter=2000, perplexity=30, learning_rat
         init='random',
         random_state=0,
         n_iter=n_iter,
-        learning_rate=float(learning_rate),
+        learning_rate=float(learning_rate), #it can be set to 'auto'. see actual tsne documentation.
         metric=metric,
         perplexity=float(perplexity),
         method='barnes_hut'
