@@ -1,4 +1,4 @@
-# scSPARKL
+# spark
 ### An Apache Spark based computational framework for the downstream analysis of scRNA-seq data.
 
 
