@@ -37,7 +37,7 @@ Following are the main tasks performed by the pipeline:
 Input data is first cleaned and melted to tall format. 
 
 ### Generate Cell, Gene Quality Summaries and filtering the unwanted cells and genes.
-This is followed by generating the variety of quality summaries for genes and cells, output of which is saved in an analyses folder automatically generated. 
+Data Melting is followed by generating the variety of quality summaries for genes and cells, output of which is saved in an analyses folder automatically generated. 
 The quality summaries are then passed as arguments to the `data_filter()` to filter out the unwanted genes and cells. Defualt paremeters can be changed by directly manipulating the filter package.
 Additionally new columns can be added for other operations for filtering.
 
