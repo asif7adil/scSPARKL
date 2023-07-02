@@ -30,8 +30,9 @@ Apache spark is distributed in-memory analytics engine. It is highly recommended
 
 
 ## Implementation
-Download the source code and run either the Jupyter Notebook or the scSPARKL script file.
-Following are the main tasks performed by the pipeline:
+Download the source code and run either the Jupyter Notebook or the scSPARKL script file. 
+### Please note: currently the pipeline uses `.csv` and `.parquet` as input files for the analysis. We are continuosly working to bring in more formats for usage.
+The following are the main tasks performed by the pipeline:
 
 ### Data Melting
 Input data is first cleaned and melted to tall format. 
