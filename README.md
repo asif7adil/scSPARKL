@@ -22,6 +22,10 @@ To install the Apache Spark on Windows use any of the following links:
 [Spark Standalone on Windows](https://medium.com/analytics-vidhya/installing-and-using-pyspark-on-windows-machine-59c2d64af76e)
 <br>[Apache Spark on Windows](https://dev.to/awwsmm/installing-and-running-hadoop-and-spark-on-windows-33kc)
 
+To install the Apache Spark on linux:
+<br>[Apache Spark on Linux](https://medium.com/@patilmailbox4/install-apache-spark-on-ubuntu-ffa151e12e30).
+
+
 
 ## Spark Memory allocations
 Apache spark is distributed in-memory analytics engine. It is highly recommended to efficiently determine the number of cores and tune the memory alocations to the executors and drivers. To effectively utilize the power of Apache Spark follow the tutorial below for memory configuration and assigning executor cores:
