@@ -2,6 +2,7 @@
 # coding: utf-8
 
 # Single-Cell RNA-seq Data analysis using scSPARKL- An Apache Spark based parallel computational tool. 
+# UMAP is independent of spark environment i.e., it will take it's own good time to run.
 
 import time
 import findspark
