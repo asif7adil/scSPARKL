@@ -1,0 +1,15 @@
+# Core dependencies
+pyspark>=3.0
+pandas
+numpy
+scikit-learn
+
+# For reading/writing parquet files
+pyarrow
+fastparquet
+
+# For dimensionality reduction
+umap-learn
+
+# or plotting
+matplotlib     
