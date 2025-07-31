@@ -62,5 +62,5 @@ The dimension reduction is performed using PCA.
 The PCA implementation is exclusively spark based.
 
 ### Read paper for further details
-<br>[Click here for paper]([https://doi.org/10.1101/2023.04.07.536003](https://www.nature.com/articles/s41598-025-12897-5))
+<br>[Click here for paper](https://www.nature.com/articles/s41598-025-12897-5)
 
