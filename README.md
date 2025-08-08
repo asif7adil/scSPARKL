@@ -1,4 +1,5 @@
-
+<center> :warning: </center>
+# THE REPOSITORY ISN'T BEING ACTIVELY MAINTAINED. A NEW VERSION IS UNDER DEVELOPMENT AND WILL BE RELEASED ASAP. THANK YOU!
 # scSPARKL
 ### An Apache Spark based computational framework for the downstream analysis of scRNA-seq data.
 
