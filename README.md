@@ -1,7 +1,4 @@
-![WarningSirenGIF](https://github.com/user-attachments/assets/b6fae3ec-074c-41d6-98fe-a499bbf47ff6)
-
-
-<center> THE REPOSITORY ISN'T BEING ACTIVELY MAINTAINED. A NEW VERSION IS UNDER DEVELOPMENT AND WILL BE RELEASED ASAP. THANK YOU! </center> 
+⚠️ THE REPOSITORY ISN'T BEING ACTIVELY MAINTAINED. A NEW VERSION IS UNDER DEVELOPMENT AND WILL BE RELEASED ASAP. THANK YOU! 
 
 # scSPARKL
 ### An Apache Spark based computational framework for the downstream analysis of scRNA-seq data.
