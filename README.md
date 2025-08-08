@@ -1,3 +1,4 @@
+:warning: # THE REPOSITORY ISN'T BEING MAINTAINED ANYMORE. A NEW VERSION IS UNDERDEVELOPMENT RIGHT NOW AND WILL BE MADE AVAILABLE SOON
 # scSPARKL
 ### An Apache Spark based computational framework for the downstream analysis of scRNA-seq data.
 
